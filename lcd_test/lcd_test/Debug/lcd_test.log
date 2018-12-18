@@ -1,0 +1,15 @@
+﻿生成启动时间为 2018/11/30 9:54:30。
+     1>项目“E:\Desktop\lcd_test\lcd_test\lcd_test.vcxproj”在节点 2 上(Build 个目标)。
+     1>Build:
+         "C:\Program Files (x86)\Sysprogs\VisualGDB\\VisualGDB.exe" /build "E:\Desktop\lcd_test\lcd_test\lcd_test.vcxproj" "/solution:E:\Desktop\lcd_test\lcd_test.sln" "/config:Debug" "/platform:Win32"
+         VisualGDB: Sending 3 updated source files to build machine...
+         VisualGDB: Run "make CONFIG=Debug" in directory "/tmp/VisualGDB/e/Desktop/lcd_test/lcd_test" on root@10.17.0.30 (SSH)
+         /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-fsl-linux-gnueabi-gcc -ggdb -ffunction-sections -O0   -DDEBUG  -c lcd_test.c -o Debug/lcd_test.o -MD -MF Debug/lcd_test.dep
+         /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-fsl-linux-gnueabi-g++ -o Debug/lcd_test -Wl,-gc-sections    -Wl,--start-group Debug/lcd_test.o   -Wl,--rpath='$ORIGIN'   -Wl,--end-group
+         cp Debug/lcd_test /mnt/hgfs/linuxshare/
+         cp Debug/lcd_test /rootfs/
+     1>已完成生成项目“E:\Desktop\lcd_test\lcd_test\lcd_test.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.62
